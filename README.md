@@ -1,10 +1,10 @@
-# Veryfy Backend API Server-Provision ( Ansbile )
+# Veryfy Frontend Server-Provision ( Ansbile )
 
-Server provisioning for veryfy api.
+Server provisioning for veryfy frontend.
 
 ## Description
 
-Rails application deploy server provisioning for staging and production environment.
+A server provisioning toolset for setting up staging and production environment.
 
 ### Prerequisites
 

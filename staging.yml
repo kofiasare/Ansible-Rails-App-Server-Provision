@@ -5,17 +5,10 @@
   roles:
     - setup
 
-- name: Provision a staging server for veryfy api.
+- name: Provision a staging server for veryfy frontend.
   hosts: staging
   roles:
     - nginx
-    - redis
-    - role: postgres
-      vars:
-        pg_user: "veryfy"
-        pg_user_password: "{{ pg_user_pass }}"
-    - rails-config
-    - rbenv
     - role: weareinteractive.environment
       vars:
         environment_config:
