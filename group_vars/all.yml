@@ -1,7 +1,2 @@
-# Nginx
 server_address: 176.58.97.121
 server_name: dashboard-staging.veryfy.net
-
-# API
-deploy_user: deploy
-app_env: staging
