@@ -1,0 +1,7 @@
+---
+- name: Provision a server for veryfy frontend.
+  hosts: all
+  gather_facts: no
+  roles:
+    - setup
+    - nginx
